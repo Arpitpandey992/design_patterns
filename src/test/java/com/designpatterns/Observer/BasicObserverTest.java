@@ -1,17 +1,17 @@
-package com.designpatterns;
+package com.designpatterns.Observer;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.designpatterns.ObserverPattern.CurrentConditionsDisplay;
-import com.designpatterns.ObserverPattern.ForecastDisplay;
-import com.designpatterns.ObserverPattern.StatisticsDisplay;
-import com.designpatterns.ObserverPattern.Subject;
-import com.designpatterns.ObserverPattern.WeatherMeasurements;
+import com.designpatterns.Observer.BasicObserver.CurrentConditionsDisplay;
+import com.designpatterns.Observer.BasicObserver.ForecastDisplay;
+import com.designpatterns.Observer.BasicObserver.StatisticsDisplay;
+import com.designpatterns.Observer.BasicObserver.Subject;
+import com.designpatterns.Observer.BasicObserver.WeatherMeasurements;
 
-public class ObserverPatternTest {
+public class BasicObserverTest {
     Subject subject;
 
     @BeforeEach
